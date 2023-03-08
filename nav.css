@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-section:nth-child(1){
+  gap: 30px;
+}
+
+nav img {
+  height: 80px;
+}
+
+.nav-section ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-section ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}

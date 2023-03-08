@@ -1,0 +1,76 @@
+:root {
+  --color-base: #C7C7C7;
+  --color-black: #000814;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+}
+
+/* Wrapper css code */
+footer {
+  width: 100%;
+  background-color: var(--color-base);
+  bottom: 0;
+}
+.wrapper {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3em;
+}
+.icon {
+  color: white;
+  background-color: var(--color-black);
+  aspect-ratio: 1;
+  text-align: center;
+
+  margin: 2rem;
+  padding: 1em;
+}
+
+.intro{
+  margin-top: 2rem;
+  border: 2px solid red;
+  padding: 2rem;
+}
+.brief{
+  padding-left: 3rem;
+}
+.lead{
+  font-size: 2rem;
+}
+.btest{
+  border: 2px solid red;
+}
+.join{
+  margin: auto;
+}
+.join-button{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: yellow;
+  }
+
+/* * {border: 1px solid red} */
